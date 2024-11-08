@@ -8,14 +8,17 @@
     <link rel="stylesheet" href="css/hola.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <section>
         <div class="top">
             <h1>
-                titulado
+                Tablas
             </h1>
             <a href="index.html"><img src="imagenes/logo(1).jpg" alt="milogo"></a>
         </div>
@@ -24,9 +27,14 @@
                 Ideas principales
             </h2>
             <div class="textoa">
-                <p>
-                    descripcion de las mismas, lista desordenada
-                </p>
+                <ul>
+                    <li>elemenots table</li>
+                    <p>Elementos de acomodo html tabla</p>
+                    <li>CSS para tablas</li>
+                    <p>etiquetas css utilizables para tablas</p>
+                    <li>especificacion en tablas</li>
+                    <p>formas de seleccionar elementos de tablas para ligarlos con css</p>
+                </ul>
             </div>
         </div>
         <div class="sidebysideb">
@@ -35,7 +43,9 @@
             </h2>
             <div class="textob">
                 <p>
-                    parrafo con apuntes
+                    Las tablas eran utilizadas con mas frecuencia antes con el fin de acomodar sitios, pero esa practica
+                    es cada vez mas arcaica ya que ahora existen muchos mas medios para lograr una pagina que se ve a
+                    bien organizada sin tener que reñirse por una tabla
                 </p>
             </div>
             <img src="" alt="">
@@ -46,7 +56,19 @@
             </h2>
             <div class="textoc">
                 <p>
-                    pecausa
+                    Los elementos table se tratan de tablas de html, que permiten organizar y mostrar informacion como
+                    una de ellas utilizando las etiquetas TR (table row) para crear filas y TD (table column) para crear
+                    columnas y asi especificar la forma y las casillas de tu tabla.
+                </p>
+                <p>
+                    las tablas estan sujetas a las etiquetas regulares para los elementos css, asi como lo estan sus
+                    contenidos, solo se debe ser especifico con el elemento para poder seleccionarlo sin afectar el
+                    resto de la tabla, utilizando elementos de especifidad como el nth child u otros.
+                </p>
+                <p>
+                    existen algunos elementos CSS solo disponibles para tablas como Rowspan y Colspan, las cuales
+                    aumentan la cantidad de filas y columnas que una casilla abarca respectivamente, border spacing para
+                    cambiar los bordes de las celdas en relacion con la tabla y muchas otras etiquetas.
                 </p>
             </div>
         </div>

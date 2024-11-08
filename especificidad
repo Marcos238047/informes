@@ -8,14 +8,17 @@
     <link rel="stylesheet" href="css/hola.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <section>
         <div class="top">
             <h1>
-                titulado
+                Especifidad
             </h1>
             <a href="index.html"><img src="imagenes/logo(1).jpg" alt="milogo"></a>
         </div>
@@ -24,9 +27,20 @@
                 Ideas principales
             </h2>
             <div class="textoa">
-                <p>
-                    descripcion de las mismas, lista desordenada
-                </p>
+                <ul>
+                    <li>la especifidad en css y sus valores</li>
+                    <li>gerarquia de la especifidad
+                        <p>existen diferentes valores de jerarquia de especifidad los cuales tienen 4 valores</p>
+                        <ul>
+                            <li>1: estilos Inline</li>
+                            <li>2: elementos con ID's</li>
+                            <li>3: atributos, clases y pseudoclases</li>
+                            <li>4:elementos y pseudoelementos</li>
+                        </ul>
+                    </li>
+                    <li>!important</li>
+                    <p>sobrescriben los valores de especifidad y quedan mas arriba</p>
+                </ul>
             </div>
         </div>
         <div class="sidebysideb">
@@ -35,7 +49,7 @@
             </h2>
             <div class="textob">
                 <p>
-                    parrafo con apuntes
+                    si dos elementos con !important compiten, tomara prioridad el que tenga mayor especifidad
                 </p>
             </div>
             <img src="" alt="">
@@ -46,7 +60,19 @@
             </h2>
             <div class="textoc">
                 <p>
-                    pecausa
+                    La especifidad es el medio por el cual os navegadores deciden que valores de propiedad css son los
+                    mas relevantes para un elemento y por lo tanto se aplican
+
+                    La especifidad de un elemento se aplica cuando el elemento es el obketivo de varias declaraciones, y
+                    los elementos directos siempre tendran prioridad sobre las reglas que un elemento hereda de su
+                    antepasado,.
+
+                    Cuando varias declaraciones tienen la misma epecifidad se decide cual tendra prioridad viendo cual
+                    es la ultima orden que se dio, es decir la ultima regla, la mas reciente.
+                </p>
+                <p>
+                    Los niveles de especifidad se pueden sumar yt superponer, dependiendo de que tan especificamente te
+                    refieras a un elemento, es menos especifico .div que .div.a .
                 </p>
             </div>
         </div>

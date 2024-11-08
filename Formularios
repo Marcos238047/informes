@@ -8,14 +8,17 @@
     <link rel="stylesheet" href="css/hola.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <section>
         <div class="top">
             <h1>
-                titulado
+                Fromularios y su css.
             </h1>
             <a href="index.html"><img src="imagenes/logo(1).jpg" alt="milogo"></a>
         </div>
@@ -24,9 +27,45 @@
                 Ideas principales
             </h2>
             <div class="textoa">
-                <p>
-                    descripcion de las mismas, lista desordenada
-                </p>
+                <ul>
+                    <li>Elemento form</li>
+                    <p>se utiliza para crear un formulario que recopilara informacion, linkeandolo a un archivo php</p>
+                    <li>php</li>
+                    <p>los archivos php son archivos que ayudan al visitante a comunicarse con el servidor</p>
+                    <li>label</li>
+                    <p>va dentro del elemento form, sirve para seleccionar una clasificacion para los datos que se
+                        gurdaran.</p>
+                    <li>input
+                        <p>son los elementos por los que el usuario introduce la informacion y pueden ser del tipo:</p>
+                        <ul>
+                            <li>email</li>
+                            <p>para insertar un email</p>
+                            <li>password</li>
+                            <p>input que escone el texto para contraseñas</p>
+                            <li>date</li>
+                            <p>para fechas</p>
+                            <li>radio</li>
+                            <p>para elecciones por puntos, similar a la selexion de sexo</p>
+                            <li>checkbox</li>
+                            <p>se utiliza para crear una lista de opciones que el usuario puede escoger varios</p>
+                            <li>button</li>
+                            <p>crea botones que ejecutan eventos de java</p>
+                            <li>color</li>
+                            <p>crea un boton para seleccionar colores</p>
+                            <li>range</li>
+                            <p>crea un rango de valores de los cuales el usuario puede escoger uno</p>
+                            <li>search</li>
+                            <p>crea una barra de busqueda</p>
+                            <li>url</li>
+                            <p>solo permite introducir un hypervinculo</p>
+                            <li>number</li>
+                            <p>deja introducir solo numeros, no letras</p>
+                            <li>tel</li>
+                            <p>permite introducir un numero tecnologico</p>
+                        </ul>
+                    </li>
+                    <li>Css para formularios</li>
+                </ul>
             </div>
         </div>
         <div class="sidebysideb">
@@ -35,7 +74,11 @@
             </h2>
             <div class="textob">
                 <p>
-                    parrafo con apuntes
+                    Usualmente se utilizan tables para acomodar facilmente los elementos de formularios.
+                </p>
+                <p>
+                    se pueden enlazar especificamente los inputs a un css pero para ello se tiene que declarar el input
+                    y su tipo juntos.
                 </p>
             </div>
             <img src="" alt="">
@@ -46,8 +89,15 @@
             </h2>
             <div class="textoc">
                 <p>
-                    pecausa
+                    Los formularios de una pagina w4eb son elementos que permiten a los usuarios enviar informacion a la
+                    pagina, usualmente para recibir una respuesta.
                 </p>
+                <p>comunmente se utilizan archivos php en el lado del servidor para que reciban los valores que el dev
+                    le pidio al usuario y los guardan en una base de datos desde los que se pueden consultar</p>
+                <p>tambien se permite a los elementos de un form tener propiedades css, la gran mayoria de las etiquetas
+                    aplicables a otros elementos html estan disponibles pero se debe tener cuidado especificando cuales
+                    de los elementos seran los que han de ser modificados, ya que se pueden crear modificaciones no
+                    deseadas a elementos diferentes si no se utliza la especifidad adecuada.</p>
             </div>
         </div>
     </section>
